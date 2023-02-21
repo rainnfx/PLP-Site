@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container-1 {
+  background-color: blue;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
