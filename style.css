@@ -1,14 +1,23 @@
 html, body {
   height: 100%;
   width: 100%;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  width: 80rem;
-  margin: 0;
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box; /* include padding in element dimensions */
 }
 
 /* Navbar */
@@ -72,7 +81,7 @@ nav {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 67rem;
+  width: 80%;
   height: 62.5rem;
   margin: auto;
 }
@@ -94,4 +103,8 @@ nav {
 
 .hero-img {
   align-self: center;
+}
+
+.hero-img img {
+  border-radius: 7px;
 }
