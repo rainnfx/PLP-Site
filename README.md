@@ -6,4 +6,4 @@ We thought the site could use a revision, so we thought why not. It'd be smth we
 
 This uses an MIT License, feel free to use our code. Be a decent human and credit us if you do use it!!
 
-- Matteo
+-Matteo
