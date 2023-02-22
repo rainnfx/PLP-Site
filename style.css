@@ -1,17 +1,64 @@
 html, body {
   height: 100%;
   width: 100%;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
-/* Footer */
+/* Navbar */
 
-.container-1 {
-  background-color: blue;
-  border-radius: 1rem;
-  padding: 1rem 0.5rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7%;
+  background-color: #006bbd;
+}
+
+.logo {
+  order: 1;
+  align-items: center;
+  margin-top: .2rem;
+}
+
+.logo img {
+  border-radius: 5px;
+}
+
+.buttons {
+  order: 2;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  list-style: none;
+  counter-reset: my-counter;
+  display: flex;
+  font-family: var(--sec-font);
+  margin-right: 1.875rem;
+}
+
+.buttons li {
+  margin-right: 1rem;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: 500;
   color: white;
-  font-family: sans-serif;
-  text-align: center;
 }
 
+/* Hero Area */
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 62.5rem;
+  height: 62.5rem;
+  margin: auto;
+  }
