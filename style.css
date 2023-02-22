@@ -108,3 +108,44 @@ nav {
 .hero-img img {
   border-radius: 7px;
 }
+
+.learn-with-us {
+  height: 7rem;
+  width: 17rem;
+  background-color: white;
+  border-radius: 7px;
+  position: relative;
+  float: right;
+  bottom: 10rem;
+}
+
+.learn-with-us p {
+  position: relative;
+  font-weight: 640;
+  left: .9rem;
+}
+
+.learn-with-us a {
+  position: relative;
+  text-decoration: none;
+  color: #a81f33;
+  padding: .4rem;
+  border: .15rem solid #a81f33;
+  border-radius: .4rem;
+  font-weight: 500;
+  left: 9em;
+  top: .5rem;
+  transition: 0.3s;
+}
+
+.learn-with-us a:hover {
+  transition: 0.3s;
+  background-color: #a81f33;
+  color: #fff;
+}
+
+.sm-info h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 650;
+}
