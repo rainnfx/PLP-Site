@@ -10,142 +10,147 @@ body {
   overflow-x: hidden;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  max-width: 80rem;
-  margin: 0 auto;
-  height: 100%;
-  padding: 1rem;
-  box-sizing: border-box; /* include padding in element dimensions */
-}
-
-/* Navbar */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.625rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7%;
-  background-color: #006bbd;
-}
-
-.logo {
-  order: 1;
-  align-items: center;
-  margin-top: .2rem;
-}
-
-.logo img {
-  border-radius: 5px;
-}
-
-.buttons {
-  order: 2;
-  display: flex;
-  align-items: center;
-}
-
-.buttons {
-  list-style: none;
-  counter-reset: my-counter;
-  display: flex;
-  font-family: var(--sec-font);
-  margin-right: 1.875rem;
-}
-
-.buttons li {
-  margin-right: 1rem;
-}
-
-.buttons a {
-  text-decoration: none;
-  font-weight: 500;
-  color: white;
-  transition: 0.5s;
-}
-
-.buttons a:hover {
-  color: #a8e2ff;
-  transition: 0.5s;
-  font-weight: 600;
-}
-
-/* Hero Area */
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 62.5rem;
-  margin: auto;
-}
-
-.header-txt {
-  text-align: center;
-}
-
-.header-txt h1 {
-  font-size: 4rem;
-  margin-top: .7rem;
-  margin-bottom: .5rem;
-}
-
-.header-txt h2 {
-  font-size: 2.5rem;
-  margin-top: .5rem;
-}
-
-.hero-img {
-  align-self: center;
-}
-
-.hero-img img {
-  border-radius: 7px;
-}
-
-.learn-with-us {
-  height: 7rem;
-  width: 17rem;
-  background-color: white;
-  border-radius: 7px;
-  position: relative;
-  float: right;
-  bottom: 10rem;
-}
-
-.learn-with-us p {
-  position: relative;
-  font-weight: 640;
-  left: .9rem;
-}
-
-.learn-with-us a {
-  position: relative;
-  text-decoration: none;
-  color: #a81f33;
-  padding: .4rem;
-  border: .15rem solid #a81f33;
-  border-radius: .4rem;
-  font-weight: 500;
-  left: 9em;
-  top: .5rem;
-  transition: 0.3s;
-}
-
-.learn-with-us a:hover {
-  transition: 0.3s;
-  background-color: #a81f33;
-  color: #fff;
-}
-
-.sm-info h3 {
-  text-align: center;
-  font-size: 1.7rem;
-  font-weight: 650;
-}
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 80rem;
+    margin: 0 auto;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box; /* include padding in element dimensions */
+  }
+  
+  /* Navbar */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #006bbd;
+  }
+  
+  .logo {
+    order: 1;
+    align-items: center;
+    margin-top: .2rem;
+  }
+  
+  .logo img {
+    height: 3.75rem;
+    width: 3rem;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    order: 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons {
+    list-style: none;
+    counter-reset: my-counter;
+    display: flex;
+    font-family: var(--sec-font);
+    margin-right: 1.875rem;
+  }
+  
+  .buttons li {
+    margin-right: 1rem;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s;
+    border-color: white;
+  }
+  
+  .buttons a:hover {
+    color: #a8e2ff;
+    transition: 0.5s;
+    font-weight: 600;
+    border-bottom: 3px solid #fff
+  }
+  
+  /* Hero Area */
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 62.5rem;
+    margin: auto;
+  }
+  
+  .header-txt {
+    margin-top: 10rem;
+    text-align: center;
+  }
+  
+  .header-txt h1 {
+    font-size: 4rem;
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+  }
+  
+  .header-txt h2 {
+    font-size: 2.5rem;
+    margin-top: .5rem;
+  }
+  
+  .hero-img {
+    align-self: center;
+  }
+  
+  .hero-img img {
+    border-radius: 7px;
+  }
+  
+  .learn-with-us {
+    height: 7rem;
+    width: 17rem;
+    background-color: white;
+    border-radius: 7px;
+    position: relative;
+    left: 43rem;
+    bottom: 8rem;
+  }
+  
+  .learn-with-us p {
+    position: relative;
+    font-weight: 640;
+    left: .9rem;
+  }
+  
+  .learn-with-us a {
+    position: relative;
+    text-decoration: none;
+    color: #a81f33;
+    padding: .4rem;
+    border: .15rem solid #a81f33;
+    border-radius: .4rem;
+    font-weight: 500;
+    left: 9em;
+    top: .5rem;
+    transition: 0.3s;
+  }
+  
+  .learn-with-us a:hover {
+    transition: 0.3s;
+    background-color: #a81f33;
+    color: #fff;
+  }
+  
+  .sm-info h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 650;
+  }
