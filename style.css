@@ -116,12 +116,12 @@ body {
   
   .learn-with-us {
     height: 7rem;
-    width: 17rem;
+    width: 20rem;
     background-color: white;
     border-radius: 7px;
     position: relative;
-    left: 43rem;
-    bottom: 8rem;
+    left: 38rem;
+    bottom: 7rem;
   }
   
   .learn-with-us p {
@@ -153,4 +153,5 @@ body {
     text-align: center;
     font-size: 1.7rem;
     font-weight: 650;
+    font-style: italic;
   }
