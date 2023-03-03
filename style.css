@@ -10,6 +10,38 @@ body {
   overflow-x: hidden;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.plp-blue { color: #006bbd; }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -166,7 +198,7 @@ body {
 .card {
   
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  
   width: 17rem;
   height: 19rem;
   margin: 1rem;
@@ -174,12 +206,14 @@ body {
 
 }
 .inner {
+  
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  
 }
 
 /* Why? */
@@ -188,10 +222,28 @@ body {
   transition: transform 0.8s;
 }
 .inner > *{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
     position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  
+}
+.pbl-back{
+    background-color: #006bbd;
+  color: white;
+  transform: rotateY(180deg);
+}
+.pbl-front{
+  background-color: white;
 }
 
+.card-front-icon {
+  margin-top: 1rem;
+}
+
+.card-front-text h2 {
+  margin: 0;
+}
