@@ -216,7 +216,6 @@ body {
   
 }
 
-/* Why? */
 .card:hover .inner{
   transform: rotateY(180deg);
   transition: transform 0.8s;
@@ -231,12 +230,12 @@ body {
   backface-visibility: hidden;
   
 }
-.pbl-back{
+.card-back{
     background-color: #006bbd;
   color: white;
   transform: rotateY(180deg);
 }
-.pbl-front{
+.card-front{
   background-color: white;
 }
 
