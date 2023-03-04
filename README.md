@@ -1,11 +1,11 @@
 # PLP-Site
 
-This is the repository for the website of the education program me and Finn (Jam) are in. (https://plp.seycove.ca)
+PLP-Site is an open source website that aims to replace mine and Finn's (jamdotjar)'s education programs old site. It was created with HTML, Vanilla CSS, and JavaScript. and is available for anyone to use, modify and distribute under the [MIT License](https://opensource.org/licenses/MIT).
 
-We thought the site could use a revision, so we thought why not. It'd be smth we could add to our Portfolios.
+## Contact
 
-This uses an MIT License, feel free to use our code. Be a decent human and credit us if you do use it!!
+If you have any questions, please don't hesitate to contact me at rainn.#5194 (over discord).
 
--Matteo
+## License
 
-
+The PLP-Site is available under the [MIT License](https://opensource.org/licenses/MIT). We would appreciate it if you'd credit us if you use any of our code.
